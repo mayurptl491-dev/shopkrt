@@ -1,0 +1,122 @@
+
+
+.shopkart-footer {
+  background: linear-gradient(
+    135deg,
+    #17152f,
+    #25204c,
+    #342875
+  );
+
+  color: white;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Brand */
+.footer-brand {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  color: #c3c0df;
+  font-size: 14px;
+  line-height: 1.8;
+  max-width: 320px;
+}
+
+/* Headings */
+.shopkart-footer h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+/* Social Links */
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.footer-socials a {
+  color: #c3c0df;
+  text-decoration: none;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  color: #a99fff;
+}
+
+/* Quick Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #c3c0df;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #a99fff;
+  padding-left: 5px;
+}
+
+/* Contact */
+.shopkart-footer p {
+  color: #c3c0df;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.shopkart-footer i {
+  color: #a99fff;
+  margin-right: 8px;
+}
+
+/* Copyright */
+.footer-bottom {
+  background: rgba(0, 0, 0, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #aaa5ca;
+  font-size: 13px;
+}
+
+.footer-made {
+  color: #c3c0df;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .shopkart-footer {
+    text-align: center;
+  }
+
+  .footer-description {
+    margin: auto;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    line-height: 2;
+  }
+}
